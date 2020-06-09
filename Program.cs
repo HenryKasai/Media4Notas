@@ -38,15 +38,13 @@ namespace Media4Notas
                 {
                     Console.WriteLine($"Você ficou com média {resultado:N1}. Aprovado.");
                 }
-                Console.ForegroundColor = ConsoleColor.Gray;
-
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Digite somente notas entre 0 e 10.");
-                Console.ForegroundColor = ConsoleColor.Gray;
             }
+            Console.ResetColor();
 
 
 
