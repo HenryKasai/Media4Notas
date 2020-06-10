@@ -7,8 +7,6 @@ namespace Media4Notas
         static void Main(string[] args)
         {   
             decimal nota1, nota2, nota3, nota4;
-            
-            
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Insira as 4 notas que serão avaliadas.");
             Console.Write("Nota 1: ");
