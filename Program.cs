@@ -45,7 +45,7 @@ namespace Media4Notas
                 Console.WriteLine("Digite somente notas entre 0 e 10.");
             }
             Console.ResetColor();
-            Console.ReadLine();
+            Console.ReadKey();
 
 
 
