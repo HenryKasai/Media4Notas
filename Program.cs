@@ -31,6 +31,10 @@ namespace Media4Notas
             {
                 decimal resultado = (nota1 + nota2 + nota3 + nota4) / 4;
                 Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"Nota 1 = {nota1}");
+                Console.WriteLine($"Nota 2 = {nota2}");
+                Console.WriteLine($"Nota 3 = {nota3}");
+                Console.WriteLine($"Nota 4 = {nota4}");
                 if (resultado < 5)
                 {
                     Console.WriteLine($"Você ficou com média {resultado}, reprovado.");
