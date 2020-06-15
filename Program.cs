@@ -24,7 +24,7 @@ namespace Media4Notas
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Valor inválido.");
-                Console.ForegroundColor = ConsoleColor.Gray;    
+                Console.ResetColor();    
                 Environment.Exit(-1);    
             }
             else
@@ -48,7 +48,7 @@ namespace Media4Notas
                     Console.WriteLine($"Você ficou com média {resultado}, aprovado.");
                 }
             }   
-            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.ResetColor();
             Console.ReadKey();    
  
             
